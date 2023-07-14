@@ -1,0 +1,44 @@
+.main {
+    margin: 50px 0 40px;
+}
+
+.card {
+    box-shadow:  10px 10px 10px -7px rgba(0, 0, 0, 0.44);
+}
+
+.card-title, .card-text {
+    color: black !important;
+}
+
+.card-body {
+    background-color: white !important; 
+}
+
+/* MODAL */
+.modal-header {
+    background-color: #fc5759;
+}
+
+.modal-body > * {
+    color: black !important;
+}
+
+.modal-body input {
+    width: 100%;
+    /* padding: 8px;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box; */
+}
+
+.modal-footer {
+    border: none;
+}
+
+.detail-movie>* {
+    color: black !important;
+}
+
+.modal-content, .modal-content:not(.saldo)  {
+    background-color: #eceff1 !important;
+}

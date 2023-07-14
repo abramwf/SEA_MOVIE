@@ -1,0 +1,25 @@
+.container-fluid {
+    margin: 50px auto !important;
+}
+
+.card {
+    width: 400px !important;
+    box-shadow:  10px 10px 10px -7px rgba(0, 0, 0, 0.44);
+}
+
+.card-title, .card-text {
+    color: black !important;
+}
+
+.card-title {
+    border-bottom: 2px solid #ebb7b8;
+    padding-bottom: 5px;
+}
+
+.card-text {
+    margin-bottom: 2px;
+}
+
+.logo-ticket {
+    width: 55px;
+}
