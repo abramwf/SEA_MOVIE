@@ -19,8 +19,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [MovieController::class, 'main'])->name('main');
 
-Route::get('/test', [MovieController::class, 'test'])->name('test');
-
 Route::get('/home', [MovieController::class, 'main'])->name('main');
 
 Route::post('/balance', [BalanceController::class, 'update'])->name('balance.update');

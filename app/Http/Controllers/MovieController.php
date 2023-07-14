@@ -11,16 +11,7 @@ use Illuminate\Http\Request;
 
 class MovieController extends Controller
 {
-    public function test() {
-        $movies = Movie::all();
-        $balances = Balance::all();
-        $seats = Seat::all();
-        $movie_seats = MovieSeat::all();
-        $tickets = Ticket::all();
-
-        return view('test', compact('movies', 'balances', 'seats', 'movie_seats', 'tickets'));
-    }
-
+    
     public function main() {
         $movies = Movie::all();
         $balances = Balance::all();

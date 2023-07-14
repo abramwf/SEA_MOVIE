@@ -67,7 +67,6 @@
                     <p class="card-text">Umur : {{ $ticket->age }} Tahun</p>
                     <p class="card-text">No. Kursi : 34</p>
                     <p class="card-text">Harga : {{ $ticket->movie->ticket_price }}</p>
-                    {{-- <button href="#" class="btn btn-danger fw-bold align-self-end m-0 py-1 px-2"><i class="fa fa-trash"></i></button> --}}
                 </div>
             </div>
         @endforeach
